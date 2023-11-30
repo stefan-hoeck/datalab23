@@ -100,7 +100,14 @@
 #    Given a molecule and two of its nodes, write a function that
 #    determines if the two nodes are connected.
 #
-# k) Even if you haven't finished everything, you might want to test
+# k) (hard) As in part j), we are going to look for a path between
+#    nodes. This time, however, you should implement function
+#    `findPath` that tries to find a path between two nodes in a
+#    molecule. The function should return a list of the node indices
+#    in the path in the correct order. If the two nodes are not
+#    connected, the empty list should be returned.
+#
+# l) Even if you haven't finished everything, you might want to test
 #    your code with the following non-trivial molecule (tyrosine
 #    hydro chloride).
 #
